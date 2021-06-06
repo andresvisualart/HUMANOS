@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MODELADO</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+  
+    <a-scene>
+
+<a-camera position="-21 1.2 90"> </a-camera>
+
+      
+
+
+
+<a-assets>
+  <a-asset-item id="alcantarilla" src="./alcantarilla.gltf"></a-asset-item>
+</a-assets>
+
+<a-entity gltf-model="#alcantarilla"position="-24 0.5 72" rotation="5.5 0 0"    scale="3 3 3"></a-entity>
+
+
+
+
+<a-plane src="./MODELADOS.png" position="-21 1.7 86" material="transparent: true" rotation="0 0 0" width="12" height="5" ></a-plane>
+
+
+
+
+      <a-entity environment="skyColor:#FA3287;skyType:none;horizonColor:#FA3287;active:true;lightPosition:-0.11 1 0.33;fog:0.78;groundTexture:checkerboard;groundColor:#454545;groundColor2:#5d5d5d;dressingScale:1;dressingVariance:0 0 0" preset-switcher="" id="environment"><a-entity class="environment" position="0 50 0" light="color:#eeeeee;intensity:0.6;groundColor:#454545;type:hemisphere"></a-entity><a-entity class="environment" position="-0.11 1 0.33" light="shadowCameraLeft:-10;shadowCameraBottom:-10;shadowCameraRight:10;shadowCameraTop:10;intensity:0.6"></a-entity><a-entity rotation="-90 0 0" class="environmentGround environment" scale="1 1 3" shadow="cast:false;receive:false"></a-entity><a-entity class="environmentDressing environment" visible="false"></a-entity><a-sky radius="200" theta-length="110" class="environment" visible="false" geometry="" material="npot:false"></a-sky></a-entity>      
+     
+     
+      <a-sound src="src: url(audioespejo.mp3)" autoplay="true" loop="true" volume="0.25" position="-19 -1 53"></a-sound>
+
+
+      <a-sound src="src: url(soltar.mp3)" autoplay="true" loop="true" volume="0.8" position="0 0 23"></a-sound>
+
+      <a-sound src="src: url(migrante.mp3)" autoplay="true" loop="true" volume="0.1" position="3.2 0 3"></a-sound>
+
+      <a-sound src="src: url(perder.mp3)" autoplay="true" loop="true" volume="0.4" position="-48 0 23"></a-sound>
+
+      <a-sound src="src: url(rebelioshhh.mp3)" autoplay="true" loop="true" volume="0.37" position="-23 0 23"></a-sound>
+
+      <a-sound src="src: url(emprender.mp3)" autoplay="true" loop="true" volume="0.9" position="-16.7 0 -12"></a-sound>
+
+      <a-sound src="src: url(crear.mp3)" autoplay="true" loop="true" volume="0.18" position="-9.8 0 -48"></a-sound>
+
+      <a-sound src="src: url(falso.mp3)" autoplay="true" loop="true" volume="0.2" position="-35 0 -49"></a-sound>
+
+      <a-sound src="src: url(upj.mp3)" autoplay="true" loop="true" volume="0.3" position="4.7 -1 -18"></a-sound>
+
+      <a-sound src="src: url(secus.mp3)" autoplay="true" loop="true" volume="0.2" position= "-47 -1 -15"></a-sound>
+
+
+
+
+
+
+      <a-plane src="./P8.jpg" position="-9.8 2 -48 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./geta.png" position="-10.6 1 -44 " material="transparent: true" rotation="0 0 0" width="3" height="3" ></a-plane>
+      <a-plane src="./P7.jpg" position="-10.7 2 -43 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./P7.jpg" position="-12.25 2 -35 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./ubicacion.png" position="-10.6 4.5 -44 " material="transparent: true" rotation="0 0 0" width="4" height="4" ></a-plane>
+
+
+
+      <a-plane src="./splash.png" position="-12.9 1.4 -32 " material="transparent: true" rotation="0 0 0" width="3" height="3" ></a-plane>
+      <a-plane src="./splash.png" position="-14.45 1.4 -22 " material="transparent: true" rotation="0 0 0" width="3" height="3" ></a-plane>
+
+
+
+      <a-plane src="./P6.jpg" position="-15.62 2 -17 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./P5.jpg" position="-17 2 -10 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./P4.jpg" position="-17.9 2 -5 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./mountain.png" position="-16.7 1 -12 " material="transparent: true" rotation="0 0 0" width="3" height="3" ></a-plane>
+      <a-plane src="./ubicacion.png" position="-16.7 4.5 -12 " material="transparent: true" rotation="0 0 0" width="4" height="4" ></a-plane>
+
+
+      <a-plane src="./P3.jpg" position="-22.6 2 20 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+      <a-plane src="./P2.jpg" position="-23.9 2 27 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+ <a-plane src="./P1.jpg" position="-23.2 2 23 " rotation="0 0 0" width="2.5" height="0.3" ></a-plane>
+
+ 
+     
+      <a-plane src="./hands.png" position="-23.2 1.2 23 " material="transparent: true" rotation="0 0 0" width="2.8" height="1" ></a-plane>
+      <a-plane src="./ubicacion.png" position="-23.2 4.5 23 " material="transparent: true" rotation="0 0 0" width="4" height="4" ></a-plane>
+      <a-plane src="./flames.png" position="-19.3 1.27 3 " material="transparent: true" rotation="0 0 0" width="2-5" height="1" ></a-plane>
+      <a-plane src="./flames.png" position="-20.7 1.27 10 " material="transparent: true" rotation="0 0 0" width="2-5" height="1" ></a-plane>
+
+      
+
+
+ 
+      <a-assets>
+        <a-asset-item id="casas" src="./casas.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#casas"position="-25.3 8 4" rotation="0 90 180"    scale="1 1 1"></a-entity>
+
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="caida" src="./caida.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#caida"position="-43 1 23" rotation="0 90 0"    scale="0.03 0.03 0.03"></a-entity>
+
+
+      <a-assets>
+        <a-asset-item id="escalas" src="./escalas.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#escalas"position="-45 1 23" rotation="0 180 0"    scale="0.03 0.03 0.03"></a-entity>
+      <a-plane src="./ubicacion.png" position="-45 10 23 " material="transparent: true" rotation="0 0 0" width="5" height="5" ></a-plane>
+
+
+     
+
+
+
+
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="capitolio" src="./capitolio.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#capitolio"position="-40 -0.5 -55" rotation="0 240 0" scale="0.2 0.2 0.2"></a-entity>
+      <a-plane src="./ubicacion.png" position="-34 13 -45 " material="transparent: true" rotation="360 360 360" width="5" height="5" ></a-plane>
+      
+      <a-assets>
+        <a-asset-item id="skull" src="./craneo.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#skull"position="-37.4 5 -49" rotation="180 -65 0"    scale="0.3 0.3 0.3"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="mano3" src="./mano3.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#mano3"position="-34 0 -45" rotation="0 300 0"    scale="1 1 1"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="mano3" src="./mano3.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#mano3"position="-33 3.2 -45" rotation="0 360 0"    scale="1 1 1"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="ak47" src="./ak47.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#ak47"position="-34 5 -49" rotation="0 -270 -45"    scale="1.5 1.5 1.5"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="mano3" src="./mano3.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#mano3"position="-34 0 -42" rotation="0 195 0"    scale="0.5 0.5 0.5"></a-entity>
+
+
+      <a-assets>
+        <a-asset-item id="head" src="./mediacabeza.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#head"position="-38 7 -47" rotation="0 60 0"    scale="0.3 0.3 0.3"></a-entity>
+
+      <a-plane src="./panfleto.jpg" position= "-38 2.3 -41.45" rotation="0 29 0" width="4" height="2.7" color=""></a-plane>
+
+      
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="casanueva" src="./casanueva.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#casanueva"position="20 -0.5 45" rotation="0 320 0"    scale="0.7 0.7 0.7"></a-entity>
+
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="interior" src="./interior.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#interior"position="-45 13 25" rotation="0 80 180"    scale="0.2 0.2 0.2"></a-entity>
+
+
+
+
+      <a-assets>
+        <a-asset-item id="hand" src="./mano.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#hand"position="0 1 22" rotation="-90 0 0"    scale="0.4 0.4 0.4"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="escombros" src="./escombros.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#escombros"position="0 0 23" rotation="0 0 0"    scale="1.7 1.8 1.7"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="basuras2" src="./basuras2.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#basuras2"position="0 5 23" rotation="90 0 0"    scale="0.02 0.02 0.02"></a-entity>
+      <a-plane src="./ubicacion.png" position="0 8 23 " material="transparent: true" rotation="0 0 0" width="5" height="5" ></a-plane>
+
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="señal" src="./señal.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#señal"position="-26 0 10" rotation="0 0 0"    scale="3 3 3 "></a-entity>
+
+
+
+
+
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="mostro" src="./mostro.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#mostro"position="-18 3 50" rotation="5 55 0" scale="0.3 0.3 0.3"></a-entity>
+      <a-assets>
+
+        <a-asset-item id="mujer" src="./mujer.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#mujer"position="-19 1 53"scale="0.1.5 0.1.5 0.1.5"rotation="90 180 0"></a-entity>
+      <a-plane src="./ubicacion.png" position="-21 5 58.7 " material="transparent: true" rotation="0 0 0" width="5" height="5" ></a-plane>
+
+
+
+      <a-assets>
+        <a-asset-item id="espejo" src="./mirror.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#espejo"position="-19 0 50" rotation="0 0 0"    scale="0.1 0.1 0.1"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="cuarto" src="./cuarto.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#cuarto"position="-20 0 56" rotation="0 0 0"    scale="0.02 0.02 0.02 "></a-entity>
+
+<a-plane src="./ventana.jpg" position= "-21 3 57.2" rotation="0 180 0" width="4" height="2.7" color=""></a-plane>
+<a-plane src="./esmad.jpg" position= "-24 3 54" rotation="0 90 0" width="7" height="3" color=""></a-plane>
+<a-plane src="./ilusion.jpg" position= "-21 2 58.7" rotation="0 0 0" width="8" height="6" color=""></a-plane>
+<a-plane src="./hueco.jpg" position= "-19 0.35 53" rotation="-88 0 0" width="12" height="12" color=""></a-plane>
+
+
+
+<a-assets>
+  <a-asset-item id="calle4" src="./calle4.gltf"></a-asset-item>
+</a-assets>
+
+<a-entity gltf-model="#calle4"position="-3 9 45" rotation="0 0 -45"    scale=" 0.2 0.2 0.   "></a-entity>
+
+
+
+
+
+
+          
+      <a-assets>
+        <a-asset-item id="trap" src="./trap.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#trap"position="3 -0.5 2" rotation="0 0 0"    scale="0.10 0.10 0.10 "></a-entity>
+   
+      <a-assets>
+        <a-asset-item id="eskeleto" src="./eskeleto.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#eskeleto"position="3.2 1 3" rotation="0 0 90"    scale="0.2 0.2 0.2"></a-entity>
+
+      <a-assets>
+        <a-asset-item id="flowers" src="./flowers.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#flowers"position="0 0 2" rotation="0 0 0"    scale=" 0.3 0.3 0.3 "></a-entity>
+
+      <a-assets>
+        <a-asset-item id="plantas" src="./plantas.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#plantas"position="3 -1.5 2" rotation="0 60 0"    scale=" 1.1 1.1 1.1   "></a-entity>
+
+      <a-assets>
+        <a-asset-item id="bill" src="./bill.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#bill"position="1 0 5" rotation="0 0 0"    scale="0.5 0.5 0.5 "></a-entity>
+
+      <a-plane src="./ubicacion.png" position="2.5 7.2 4.5 " material="transparent: true" rotation="0 0 0" width="5" height="5" ></a-plane>
+
+
+
+      <a-plane src="./colo.jpg" position= "2.5 4.5 4.5" rotation="0 0 0" width="4" height="2.7" color=""></a-plane>
+
+
+
+
+
+
+
+      <a-assets>
+        <a-asset-item id="semaforo" src="./semaforo.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#semaforo"position="-10 4 20" rotation="60 0 0"    scale="0.7 0.7 0.7 "></a-entity>
+
+
+
+
+      
+
+      
+      
+      <a-assets>
+        <a-asset-item id="semas" src="./semas.gltf"></a-asset-item>
+      </a-assets>
+    
+      <a-entity gltf-model="#semas"position="-23 -1.5 65"scale="0.03 0.03 0.03"rotation="0 0 0"></a-entity>
+
+
+
+
+
+
+
+  <a-assets>
+            <a-asset-item id="estacion" src="./estacion.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#estacion"position="-10 0 -50" rotation="1. 0 0 " scale="0.5 0.5 0.5"></a-entity>
+
+
+
+
+
+
+
+
+          <a-assets>
+            <a-asset-item id="bocas" src="./bocas.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#bocas"position="-10 0 -50" rotation="1. 0 0 " scale="1 1 1 "></a-entity>
+
+
+
+
+        <a-assets>
+            <a-asset-item id="basilica" src="./basil.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#basilica"position="5 10 -34" rotation="45 25 0" scale="0.05 0.05 0.05"></a-entity>
+
+
+
+
+
+          <a-assets>
+            <a-asset-item id="plaza" src="./plaza.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#plaza"position="35 0 -40" rotation="0 168 0" scale="0.3 0.3 0.3 "></a-entity>
+
+
+
+
+          <a-assets>
+            <a-asset-item id="cuadro" src="./cuadro.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#cuadro"position="-53 1 40" rotation="0 0 0"    scale="0.04 0.04 0.04"></a-entity>
+
+
+
+
+
+
+
+          <a-assets>
+            <a-asset-item id="heroes" src="./heroes.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#heroes"position="5 0 -28" rotation="0 180 0" scale="0.3 0.3 0.3"></a-entity>
+
+
+
+          <a-assets>
+            <a-asset-item id="secuestro" src="./secuestro.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#secuestro"position="-48 1 -15" rotation="0 67 0" scale="0.5 0.5 0.5 "></a-entity>
+          <a-plane src="./ubicacion.png" position="-45 14 -15 " material="transparent: true" rotation="0 0 0" width="5" height="5" ></a-plane>
+
+
+
+
+
+        
+          <a-assets>
+            <a-asset-item id="ataud" src="./ataud.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#ataud"position="5.5 0.3 -16" rotation="0 180 0" scale="1.5 1.5 1.5 "></a-entity>
+          <a-plane src="./ubicacion.png" position="5.5 7 -16 " material="transparent: true" rotation="0 0 0" width="5" height="5" ></a-plane>
+
+
+
+          <a-assets>
+            <a-asset-item id="sangro" src="./sangro.gltf"></a-asset-item>
+          </a-assets>
+        
+          <a-entity gltf-model="#sangro"position="6.3 -5 -23" rotation="0 180 0" scale="0.02 0.02 0.02 "></a-entity>
+
+
+
+
+
+          
+
+
+
+
+          <a-plane src="./up.jpg" position= "4.7 1.5 -17" rotation="-27 0 0" width="4" height="2.7" color=""></a-plane>
+
+
+
+
+
+
+
+
+<a-assets>
+  <a-asset-item id="barrio" src="./barrio.gltf"></a-asset-item>
+</a-assets>
+
+<a-entity gltf-model="#barrio"position="-30 -4.5 45" rotation="0 180 0" scale="0.5 0.5 0.5"></a-entity>
+
+
+
+
+
+
+
+<a-assets>
+  <a-asset-item id="bogoto" src="./bogoto.gltf"></a-asset-item>
+</a-assets>
+
+<a-entity gltf-model="#bogoto"position="-13 3 0" rotation="0 0 0" scale="0.10 0.10 0.10"></a-entity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+        
+          
+       
+
+           
+       
+    </a-scene>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+    <h1>helou madafask </h1>
+    <p>asdasdasdasdsasadsasa    </p>
+    <img src="./tumbrl1.jpg" width="200px   ">-->
+</body>
+
+</html>
